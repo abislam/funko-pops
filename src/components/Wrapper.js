@@ -10,6 +10,12 @@ function Wrapper() {
 
 	return (
 		<div>
+			<navbar className="buttons">
+				<button type="button">Games</button>
+				<button type="button">Television</button>
+				<button type="button">Animation</button>
+				<button type="button">All</button>
+			</navbar>
 			<div>
 				{funkoComponents}
 			</div>
