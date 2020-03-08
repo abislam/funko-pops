@@ -10,7 +10,10 @@ function Wrapper() {
 
 	return (
 		<div>
-			{funkoComponents}
+			<div>
+				{funkoComponents}
+			</div>
+			
 		</div>
 	);
 }
