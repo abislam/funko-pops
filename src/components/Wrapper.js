@@ -39,7 +39,7 @@ class Wrapper extends React.Component{
 					<button type="button" onClick={() => this.setState({showMe: 3})}>Animation</button>
 					<button type="button" onClick={() => this.setState({showMe: 0})}>All</button>
 				</navbar>
-				<div>
+				<div className="container">
 					{(() => {
 				        switch (this.state.showMe) {
 				          case 0: return funkoComponentsAll;

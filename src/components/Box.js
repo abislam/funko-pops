@@ -10,6 +10,7 @@ function Box(props){
 			<h3>Value: {props.value}</h3>
 		</div>
 
+
 	)
 }
 
